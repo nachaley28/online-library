@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <style>
+        body {
+            background-image:url('/static/img/image.png');
+            background-repeat: no-repeat;
+            background-size: cover;
+            text-align: center;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            border: 3px solid white;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            background-color: transparent;
+            width: 600px;
+            height: 350px;
+            backdrop-filter: blur(5px) ;
+            
+        }
+        button {
+            margin-top:1px;
+            color: rgb(24, 11, 198);
+            background-color: white;
+            padding: 10px 18px;
+            font-size: 24px;
+            border: 2px solid black;
+            cursor: pointer;
+            
+        }
+        button:hover {
+            color: white;
+            background-color: rgb(24, 11, 198) ;
+            border: 2px solid white;
+            
+
+        }
+        h1 {
+            font-size: 70px;
+            margin-top: 30px;
+            padding-top: 50px;
+            color: rgb(24, 11, 198);
+            -webkit-text-stroke: 2px white;
+            font-weight: bold;
+            align-items: center;
+        }
+      
+    </style>
+
+</head>
+<body>
+    <div class = "container">
+        <h1>Online Library</h1>
+    
+        <a href="/signin"><button>Sign In</button></a>
+        <a href="/login"><button>Log In</button></a>
+
+    </div>
+</body>
+</html>
